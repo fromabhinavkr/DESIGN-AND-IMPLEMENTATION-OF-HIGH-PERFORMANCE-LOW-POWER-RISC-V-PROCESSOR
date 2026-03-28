@@ -1,4 +1,4 @@
-# DESIGN-AND-IMPLEMENTATION-OF-HIGH-PERFORMANCE-LOW-POWER-RISC-V-PROCESSOR
+# DESIGN-AND-IMPLEMENTATION-OF-HIGH-PERFORMANCE-AND-LOW-POWER-RISC-V-PROCESSOR
 Modern embedded systems and IoT platforms need
 processors that give high performance while maintaining low
 power consumption and high resource efficiency. This work

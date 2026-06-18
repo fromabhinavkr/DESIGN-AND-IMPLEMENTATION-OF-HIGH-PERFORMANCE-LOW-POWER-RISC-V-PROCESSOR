@@ -84,7 +84,7 @@
 
 ##  Authors
 
-| Author | Department | Institution | Location | Email |
-| :--- | :--- | :--- | :--- | :--- |
-| **Abhinav K R** | Dept. ECE | Government Engineering College Thrissur | Kerala, India | abhinav.24m142@gectcr.ac.in |
-| **Dr. A R Jayan** | Dept. ECE | Government Engineering College Thrissur | Kerala, India | arjayan@gectcr.ac.in |
+| Author | Department | Institution | Email |
+| :--- | :--- | :--- | :--- |
+| **Abhinav K R** | Dept. ECE | Government Engineering College Thrissur, Kerala, India | abhinav.24m142@gectcr.ac.in |
+| **Dr. A R Jayan** | Dept. ECE | Government Engineering College Thrissur, Kerala, India | arjayan@gectcr.ac.in |

@@ -82,6 +82,11 @@ Modern embedded systems and IoT platforms need processors that give high perform
 * So, when an object is within the IR sensor's detectable range, the sensor detects the obstacle and the seven segment display turns from 0 to 1, and at the same time motor stops rotating.
 * This quick response demonstrates the capability of the processor core to handle real-time data.
 
+---
+
+## Publications
+IEEE XPLORE : https://ieeexplore.ieee.org/document/11610488
+
 ##  Authors
 
 | Author | Department | Institution | Email |

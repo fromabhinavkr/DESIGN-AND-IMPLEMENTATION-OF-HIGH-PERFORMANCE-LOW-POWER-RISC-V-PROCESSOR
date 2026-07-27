@@ -1,0 +1,3 @@
+[submodule "secure_source_code"]
+	path = secure_source_code
+	url = https://github.com/fromabhinavkr/riscv32-processor-src.git

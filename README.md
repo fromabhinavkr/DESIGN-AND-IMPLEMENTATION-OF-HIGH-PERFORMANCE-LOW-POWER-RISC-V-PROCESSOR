@@ -57,7 +57,7 @@ Modern embedded systems and IoT platforms need processors that give high perform
 
 #### Table I: Power Report of Different PVT Corners
 
-| Technology Node | Voltage (V) | Temperature (°C) | Power (mW) | Power (W/MHz) |
+| Technology Node | Voltage (V) | Temperature (°C) | Power (mW) | Power (µW/MHz) |
 | :--- | :--- | :--- | :--- | :--- |
 | UMC 55nm (WC) | 1.08 | 125 | 2.226 | 22.26 |
 | UMC 55nm (TC) | 1.20 | 25 | 2.499 | 24.99 |
@@ -65,18 +65,18 @@ Modern embedded systems and IoT platforms need processors that give high perform
 
 #### Table II: Dynamic Power of Different PVT Corners
 
-| Corner | Internal (mW) | Switching (mW) | Leakage (mW) | Dynamic (mW) | Dynamic (W) | Dynamic (W/MHz) |
+| Corner | Internal (mW) | Switching (mW) | Leakage (mW) | Dynamic (mW) | Dynamic (µW) | Dynamic (µW/MHz) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | WC | 1.498 | 0.5878 | 0.1405 | 2.0858 | 2085.8 | 20.86 |
 | TC | 1.899 | 0.5602 | 0.0401 | 2.4592 | 2459.2 | 24.59 |
 | BC | 2.588 | 0.6293 | 0.06732 | 3.2173 | 3217.3 | 32.17 |
 
 * In the typical case, the typical case (TC) library represents the nominal PVT, VDD is 1.20V, and the temperature is 25°C.
-* The dynamic power obtained from the typical case is 24.59 W/MHz.
+* The dynamic power obtained from the typical case is 24.59 µW/MHz.
 * In the worst case condition, the worst case (WC) library has lower voltage and higher temperature, VDD is 1.08V and temperature is 125°C so the logic is slower and often increases the leakage power.
 * The dynamic power obtained from the worst case is 20.86 µW/MHz with a leakage of 0.1405 mW and the timing is met with positive setup slack of 0.642 ns and no max-delay (setup) violations.
 * The best case (BC) uses higher voltage and colder temperature where VDD is 1.32V and temperature is -40°C so cells switch faster and dynamic power rises proportionally with VDD.
-* The dynamic power obtained from the best case is 32.17 W/MHz with a leakage of 0.06732 mW and the hold timing is met for the logic with a positive hold slack of 0.045 ns and no hold violations.
+* The dynamic power obtained from the best case is 32.17 µW/MHz with a leakage of 0.06732 mW and the hold timing is met for the logic with a positive hold slack of 0.045 ns and no hold violations.
 
 ### C. SoC Design around Processor Core
 * RV32IM SoC was implemented on FPGA with hardware timer and support for interrupt controller.
